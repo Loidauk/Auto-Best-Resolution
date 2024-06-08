@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.5
 // @description  Automatcially select the highest resolution on vidplay/mycloud streams
-// @author       TellerMoose
+// @author       Loidauk / TellerMoose
 // @match        https://vidplay.online/*
 // @match        https://mcloud.bz/*
 // @match        https://embtaku.pro/*
