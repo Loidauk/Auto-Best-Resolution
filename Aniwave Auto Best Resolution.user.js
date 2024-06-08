@@ -4,11 +4,7 @@
 // @version      1.5
 // @description  Automatcially select the highest resolution on vidplay/mycloud streams
 // @author       Loidauk / TellerMoose
-// @match        https://vidplay.online/*
 // @match        https://mcloud.bz/*
-// @match        https://embtaku.pro/*
-// @match        https://ea1928580f.site/*
-// @match        https://a9bfed0818.nl/*
 // @match        https://vid142.site/*
 // @match        https://megacloud.tv/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=aniwave.to
