@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Best Resolution
 // @namespace    http://tampermonkey.net/
-// @version      1.7
+// @version      1.7.1
 // @description  Automatcially select the highest resolution on vidplay/mycloud streams
 // @author       Loidauk / TellerMoose
 // @match        https://mcloud.bz/*
