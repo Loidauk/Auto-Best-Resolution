@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Auto Best Resolution
 // @namespace    http://github.com/
-// @version      1.7.1
-// @description  Automatcially select the highest resolution on vidplay/mycloud streams
+// @version      1.7.2
+// @description  Automatcially select the highest resolution
 // @author       Loidauk / TellerMoose
 // @match        https://mcloud.bz/*
 // @match        https://vid142.site/*
