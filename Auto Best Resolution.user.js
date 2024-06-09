@@ -1,12 +1,17 @@
 // ==UserScript==
 // @name         Aniwave Auto Best Resolution
 // @namespace    http://tampermonkey.net/
-// @version      1.6
+// @version      1.7
 // @description  Automatcially select the highest resolution on vidplay/mycloud streams
 // @author       Loidauk / TellerMoose
 // @match        https://mcloud.bz/*
 // @match        https://vid142.site/*
 // @match        https://megacloud.tv/*
+// @match        https://1azayf9w.xyz/*
+// @match        https://vidco.pro/*
+// @match        https://embtaku.pro/*
+// @match        https://embtaku.com/*
+// @match        https://awish.pro/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=aniwave.to
 // @grant        none
 // @license      MIT
