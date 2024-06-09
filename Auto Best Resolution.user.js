@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Aniwave Auto Best Resolution
+// @name         Auto Best Resolution
 // @namespace    http://tampermonkey.net/
 // @version      1.7
 // @description  Automatcially select the highest resolution on vidplay/mycloud streams
