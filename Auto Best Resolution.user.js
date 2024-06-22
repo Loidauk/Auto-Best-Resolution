@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Auto Best Resolution
 // @namespace    http://github.com/
-// @version      1.7.2
+// @version      1.8
 // @description  Automatcially select the highest resolution
 // @author       Loidauk / TellerMoose
 // @match        https://mcloud.bz/*
-// @match        https://vid142.site/*
+// @match        https://vid2a41.site/*
 // @match        https://megacloud.tv/*
 // @match        https://1azayf9w.xyz/*
 // @match        https://vidco.pro/*
