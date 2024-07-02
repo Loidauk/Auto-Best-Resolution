@@ -17,6 +17,7 @@ Supported sites / players
 | Filemoon      | https://1azayf9w.xyz/* |
 | Vidstreaming  | https://vidco.pro/* <br /> https://embtaku.pro/* <br /> https://embtaku.com/*  |
 | Streamwish    | https://awish.pro/*    |
+| MegaF         | https://megaf.cc/*     |
 
 Sometimes there will come a new domain. You can add a user match. I will try and keep it updated.
 
