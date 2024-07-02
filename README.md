@@ -11,7 +11,7 @@ Supported sites / players
 -
 | Players       | URLs                   |
 |---------------|------------------------|
-| Vidplay       | https://vid142.site/*  |
+| Vidplay       | https://vid2a41.site/* |
 | MyCloud       | https://mcloud.bz/*    |
 | MegaCloud     | https://megacloud.tv/* |
 | Filemoon      | https://1azayf9w.xyz/* |
