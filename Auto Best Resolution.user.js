@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Best Resolution
 // @namespace    http://github.com/
-// @version      1.8
+// @version      1.9
 // @description  Automatcially select the highest resolution
 // @author       Loidauk / TellerMoose
 // @match        https://mcloud.bz/*
@@ -12,6 +12,7 @@
 // @match        https://embtaku.pro/*
 // @match        https://embtaku.com/*
 // @match        https://awish.pro/*
+// @match        https://megaf.cc/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=aniwave.to
 // @grant        none
 // @license      MIT
