@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Best Resolution
 // @namespace    http://github.com/
-// @version      1.9
+// @version      1.10
 // @description  Automatcially select the highest resolution
 // @author       Loidauk / TellerMoose
 // @match        https://mcloud.bz/*
