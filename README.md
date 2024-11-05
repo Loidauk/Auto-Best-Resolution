@@ -18,6 +18,7 @@ Supported sites / players
 | Vidstreaming  | https://vidco.pro/* <br /> https://embtaku.pro/* <br /> https://embtaku.com/*  |
 | Streamwish    | https://awish.pro/*    |
 | MegaF         | https://megaf.cc/*     |
+| VidSrcCC      | https://vidsrc.cc/*    |
 
 Sometimes there will come a new domain. You can add a user match. I will try and keep it updated.
 
