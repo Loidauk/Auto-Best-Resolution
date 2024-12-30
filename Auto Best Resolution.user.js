@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Best Resolution
 // @namespace    http://github.com/
-// @version      1.12
+// @version      1.13
 // @description  Automatcially select the highest resolution
 // @author       Loidauk
 // @match        https://mcloud.bz/*
@@ -15,7 +15,7 @@
 // @match        https://megaf.cc/*
 // @match        https://vidsrc.cc/*
 // @match        https://*.bunniescdn.online/*
-// @icon         Images/Icon.png
+// @icon         https://raw.githubusercontent.com/Loidauk/Auto-Best-Resolution/refs/heads/main/Images/Icon.png
 // @grant        none
 // @license      MIT
 // @downloadURL https://github.com/Loidauk/Auto-Best-Resolution/raw/refs/heads/main/Auto%20Best%20Resolution.user.js
