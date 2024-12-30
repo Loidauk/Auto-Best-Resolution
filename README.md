@@ -19,6 +19,7 @@ Supported sites / players
 | Streamwish    | https://awish.pro/*    |
 | MegaF         | https://megaf.cc/*     |
 | VidSrcCC      | https://vidsrc.cc/*    |
+| Bun | https://*.bunniescdn.online/* |
 
 Sometimes there will come a new domain. You can add a user match. I will try and keep it updated.
 
