@@ -23,3 +23,6 @@ Supported sites / players
 
 Sometimes there will come a new domain. You can add a user match. I will try and keep it updated.
 
+Attributions
+-
+<a href="https://www.flaticon.com/free-icons/hd" title="hd icons">Hd icons created by Freepik - Flaticon</a>
