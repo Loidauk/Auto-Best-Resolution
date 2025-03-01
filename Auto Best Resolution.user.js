@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Auto Best Resolution - TEST
+// @name         Auto Best Resolution
 // @namespace    http://github.com/
 // @version      2.0
 // @description  Automatically select the highest resolution
