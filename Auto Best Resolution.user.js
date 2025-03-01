@@ -1,25 +1,17 @@
 // ==UserScript==
-// @name         Auto Best Resolution
+// @name         Auto Best Resolution - TEST
 // @namespace    http://github.com/
-// @version      1.13
-// @description  Automatcially select the highest resolution
+// @version      2.0
+// @description  Automatically select the highest resolution
 // @author       Loidauk
-// @match        https://mcloud.bz/*
-// @match        https://vid2a41.site/*
-// @match        https://megacloud.tv/*
-// @match        https://1azayf9w.xyz/*
-// @match        https://vidco.pro/*
-// @match        https://embtaku.pro/*
-// @match        https://embtaku.com/*
-// @match        https://awish.pro/*
-// @match        https://megaf.cc/*
-// @match        https://vidsrc.cc/*
+// @match        https://*.megacloud.club/*
 // @match        https://*.bunniescdn.online/*
+// @match        https://krussdomi.com/*
 // @icon         https://raw.githubusercontent.com/Loidauk/Auto-Best-Resolution/refs/heads/main/Images/Icon.png
 // @grant        none
 // @license      MIT
-// @downloadURL https://github.com/Loidauk/Auto-Best-Resolution/raw/refs/heads/main/Auto%20Best%20Resolution.user.js
-// @updateURL https://github.com/Loidauk/Auto-Best-Resolution/raw/refs/heads/main/Auto%20Best%20Resolution.user.js
+// @downloadURL  https://github.com/Loidauk/Auto-Best-Resolution/raw/refs/heads/main/Auto%20Best%20Resolution.user.js
+// @updateURL    https://github.com/Loidauk/Auto-Best-Resolution/raw/refs/heads/main/Auto%20Best%20Resolution.user.js
 // ==/UserScript==
 
 (async () => {
@@ -49,8 +41,40 @@
     const settingsButtonSelector = 'div.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button';
     await waitForElement(settingsButtonSelector);
 
-    // Set the quality to the highest with the jwplayer api
-    const player = jwplayer();
-    // 0 = auto, 1 = highest
-    player.on('firstFrame', () => player.setCurrentQuality(1));
+    // Debugging: Check if the settings button is found
+    console.log('Settings button found');
+
+    // Set the quality to the highest for all players with the jwplayer api
+    const players = document.querySelectorAll('div.jwplayer');
+    console.log(`Found ${players.length} player(s)`); // Debugging line
+
+    players.forEach(playerElement => {
+        const player = jwplayer(playerElement);
+        console.log(`Player instance:`, player); // Debugging line
+
+        player.on('ready', () => {
+            console.log('Player ready event triggered'); // Debugging line
+            player.on('levelsChanged', () => {
+                console.log('Levels changed event triggered'); // Debugging line
+                const levels = player.getQualityLevels();
+                console.log('Available quality levels:', levels); // Debugging line
+                const highestQualityIndex = levels.reduce((maxIndex, level, index, levels) => {
+                    return (level.bitrate && level.bitrate > levels[maxIndex].bitrate) ? index : maxIndex;
+                }, 1); // Start from index 1 to skip "Auto"
+                console.log('Setting quality to index:', highestQualityIndex); // Debugging line
+                player.setCurrentQuality(highestQualityIndex);
+            });
+        });
+
+        player.on('firstFrame', () => {
+            console.log('First frame event triggered'); // Debugging line
+            const levels = player.getQualityLevels();
+            console.log('Available quality levels:', levels); // Debugging line
+            const highestQualityIndex = levels.reduce((maxIndex, level, index, levels) => {
+                return (level.bitrate && level.bitrate > levels[maxIndex].bitrate) ? index : maxIndex;
+            }, 1); // Start from index 1 to skip "Auto"
+            console.log('Setting quality to index:', highestQualityIndex); // Debugging line
+            player.setCurrentQuality(highestQualityIndex);
+        });
+    });
 })();

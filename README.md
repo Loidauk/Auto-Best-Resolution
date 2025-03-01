@@ -9,17 +9,12 @@ Automatically selects the best resolution
 
 Supported sites / players
 -
-| Players       | URLs                   |
+| Sites | Players |
 |---------------|------------------------|
-| Vidplay       | https://vid2a41.site/* |
-| MyCloud       | https://mcloud.bz/*    |
-| MegaCloud     | https://megacloud.tv/* |
-| Filemoon      | https://1azayf9w.xyz/* |
-| Vidstreaming  | https://vidco.pro/* <br /> https://embtaku.pro/* <br /> https://embtaku.com/*  |
-| Streamwish    | https://awish.pro/*    |
-| MegaF         | https://megaf.cc/*     |
-| VidSrcCC      | https://vidsrc.cc/*    |
-| Bun | https://*.bunniescdn.online/* |
+| HiAnime     | https://megacloud.tv/* |
+| Miruro | https://*.bunniescdn.online/* |
+| KickAssAnime      | https://krussdomi.com/* |
+
 
 Sometimes there will come a new domain. You can add a user match. I will try and keep it updated.
 
