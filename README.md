@@ -11,7 +11,7 @@ Supported sites / players
 -
 | Sites | Players |
 |---------------|------------------------|
-| HiAnime     | https://megacloud.tv/* |
+| HiAnime     | https://megacloud.blog/* |
 | Miruro | https://*.bunniescdn.online/* |
 | KickAssAnime      | https://krussdomi.com/* |
 
