@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Auto Best Resolution
 // @namespace    http://github.com/
-// @version      2.2
+// @version      2.2.1
 // @description  Automatically select the highest resolution
 // @author       Loidauk
 // @match        https://*.megacloud.blog/*
 // @match        https://*.bunniescdn.online/*
 // @match        https://krussdomi.com/*
+// @match        https://megaup.cc/*
 // @icon         https://raw.githubusercontent.com/Loidauk/Auto-Best-Resolution/refs/heads/main/Images/Icon.png
 // @grant        none
 // @license      MIT
