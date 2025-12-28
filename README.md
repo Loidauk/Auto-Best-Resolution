@@ -14,7 +14,7 @@ Supported sites / players
 | HiAnime     | https://megacloud.blog/* |
 | Miruro | https://*.bunniescdn.online/* |
 | KickAssAnime      | https://krussdomi.com/* |
-| AnimeKAI | https://megaup.cc/* |
+| AnimeKAI | https://megaup.live/* <br> https://4spromax.site/* |
 
 
 Sometimes there will come a new domain. You can add a user match. I will try and keep it updated.

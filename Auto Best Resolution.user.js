@@ -7,7 +7,8 @@
 // @match        https://*.megacloud.blog/*
 // @match        https://*.bunniescdn.online/*
 // @match        https://krussdomi.com/*
-// @match        https://megaup.cc/*
+// @match        https://megaup.live/*
+// @match        https://4spromax.site/*
 // @icon         https://raw.githubusercontent.com/Loidauk/Auto-Best-Resolution/refs/heads/main/Images/Icon.png
 // @grant        none
 // @license      MIT
