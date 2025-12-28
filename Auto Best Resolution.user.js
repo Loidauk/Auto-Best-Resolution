@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Best Resolution
 // @namespace    http://github.com/
-// @version      2.2.1
+// @version      2.2.2
 // @description  Automatically select the highest resolution
 // @author       Loidauk
 // @match        https://*.megacloud.blog/*
